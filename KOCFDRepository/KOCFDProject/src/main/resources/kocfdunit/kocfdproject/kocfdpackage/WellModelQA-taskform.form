@@ -1,0 +1,78 @@
+
+<form id="1909976237">
+<property name="name" value="WellModelQA-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="4" name="IsWSGModelCheckedIn" type="CheckBox" id="246851398">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wsgmodelcheckedin_in (IsWSGModelCheckedIn)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="wsgmodelcheckedin_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="IsWSGModelMatchComplete" type="CheckBox" id="706911955">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wsgmodelmatched_in (IsWSGModelMatchComplete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="wsgmodelmatched_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="FDEngineerComments" type="InputText" id="758035933">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdcomments_in (FDEngineerComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="fdcomments_in"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="ReviewComments" type="InputText" id="1130075544">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;modelreviewcomments_out (ReviewComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="modelreviewcomments_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="IsFDWellModelCheckedIn" type="CheckBox" id="939458187">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdmodelcheckedin_in (IsFDWellModelCheckedIn)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="fdmodelcheckedin_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="WSGComments" type="InputText" id="1050893190">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wsgcomments_in (WSGComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="wsgcomments_in"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="ModelReviewPassed" type="CheckBox" id="1956869946">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;modelreviewpassed_out (ModelReviewPassed)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="modelreviewpassed_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="IsFDModelMatchComplete" type="CheckBox" id="1474701548">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdmodelmatched_in (IsFDModelMatchComplete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="fdmodelmatched_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="IsFDTask" type="CheckBox" id="1025567052">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isfdtask_in (IsFDTask)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="isfdtask_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="fdcomments_in" name="#E9E371" type="basicType" outId="" value="java.lang.String" id="FDEngineerComments"/>
+<dataHolder inputId="fdmodelmatched_in" name="#0000A0" type="basicType" outId="" value="java.lang.Boolean" id="IsFDModelMatchComplete"/>
+<dataHolder inputId="isfdtask_in" name="#9BCAFA" type="basicType" outId="" value="java.lang.Boolean" id="IsFDTask"/>
+<dataHolder inputId="fdmodelcheckedin_in" name="#000000" type="basicType" outId="" value="java.lang.Boolean" id="IsFDWellModelCheckedIn"/>
+<dataHolder inputId="wsgmodelcheckedin_in" name="#FBB767" type="basicType" outId="" value="java.lang.Boolean" id="IsWSGModelCheckedIn"/>
+<dataHolder inputId="wsgmodelmatched_in" name="#A7E690" type="basicType" outId="" value="java.lang.Boolean" id="IsWSGModelMatchComplete"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="modelreviewpassed_out" value="java.lang.Boolean" id="ModelReviewPassed"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="modelreviewcomments_out" value="java.lang.String" id="ReviewComments"/>
+<dataHolder inputId="wsgcomments_in" name="#FF8881" type="basicType" outId="" value="java.lang.String" id="WSGComments"/>
+</form>

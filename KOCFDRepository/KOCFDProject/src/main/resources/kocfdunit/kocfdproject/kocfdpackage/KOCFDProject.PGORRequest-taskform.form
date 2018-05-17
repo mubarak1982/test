@@ -1,0 +1,156 @@
+
+<form id="860884214">
+<property name="name" value="KOCFDProject.PGORRequest-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="action" type="InputText" id="1362890685">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (action)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="emailbody" type="InputText" id="2141152784">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emailbody (emailbody)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="emailbody"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="emailfrom" type="InputText" id="1688337502">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emailfrom (emailfrom)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="emailfrom"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="emailsubject" type="InputText" id="533245583">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emailsubject (emailsubject)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="emailsubject"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="emailto" type="InputText" id="1072659433">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;emailto (emailto)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="emailto"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="engineer" type="InputText" id="1114884508">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;engineer (engineer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="engineer"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="field" type="InputText" id="1444518695">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field (field)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="field"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="fieldid" type="InputTextInteger" id="371249584">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fieldid (fieldid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fieldid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="gc" type="InputText" id="1225810127">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gc (gc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="gc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="gcid" type="InputTextInteger" id="28583067">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gcid (gcid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="gcid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="10" name="priority" type="InputText" id="1206056193">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priority (priority)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="priority"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="17" name="targetdate" type="InputText" id="296884208">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;targetdate (targetdate)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="targetdate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="username" type="InputText" id="2133721731">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;username (username)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="username"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="wellid" type="InputTextInteger" id="1512041098">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wellid (wellid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="wellid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="13" name="wellname" type="InputText" id="1098481520">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wellname (wellname)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="wellname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="welltype" type="InputText" id="322919921">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;welltype (welltype)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="welltype"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="workflowid" type="InputTextInteger" id="2118650987">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workflowid (workflowid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="workflowid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="16" name="workflowname" type="InputText" id="1580896694">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workflowname (workflowname)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="workflowname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="IsRequestInProgress" value="java.lang.Boolean" id="IsRequestInProgress"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="IsRequestProcessed" value="java.lang.Boolean" id="IsRequestProcessed"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="IterationNr" value="java.lang.Integer" id="IterationNr"/>
+<dataHolder inputId="" name="#FF54A7" type="dataModelerEntry" outId="PGORRequestObj" value="kocfdunit.kocfdproject.kocfdpackage.PGORRequestDO" id="PGORRequestObj"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="action" value="java.lang.String" id="action"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="emailbody" value="java.lang.String" id="emailbody"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="emailfrom" value="java.lang.String" id="emailfrom"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="emailsubject" value="java.lang.String" id="emailsubject"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="emailto" value="java.lang.String" id="emailto"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="engineer" value="java.lang.String" id="engineer"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="field" value="java.lang.String" id="field"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="fieldid" value="java.lang.Integer" id="fieldid"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="gc" value="java.lang.String" id="gc"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="gcid" value="java.lang.Integer" id="gcid"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="instancejson" value="java.lang.String" id="instancejson"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="priority" value="java.lang.String" id="priority"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="targetdate" value="java.lang.String" id="targetdate"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="username" value="java.lang.String" id="username"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="wellid" value="java.lang.Integer" id="wellid"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="wellname" value="java.lang.String" id="wellname"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="welltype" value="java.lang.String" id="welltype"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="workflowid" value="java.lang.Integer" id="workflowid"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="workflowname" value="java.lang.String" id="workflowname"/>
+</form>

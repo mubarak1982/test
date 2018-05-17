@@ -1,0 +1,38 @@
+
+<form id="239790320">
+<property name="name" value="FD-ModelUpdate-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="IsFDModelMatchComplete" type="CheckBox" id="109022361">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdmodelmatchcomplete_out (IsFDModelMatchComplete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fdmodelmatchcomplete_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="IsFDTask" type="CheckBox" id="1568119937">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;isfdtask_in (IsFDTask)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="isfdtask_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="0" name="FDEngineerComments" type="InputText" id="1204736121">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdengcomments_out (FDEngineerComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fdengcomments_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="IsFDWellModelCheckedIn" type="CheckBox" id="243709473">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdmodelcheckedin_out (IsFDWellModelCheckedIn)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fdmodelcheckedin_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="fdengcomments_out" value="java.lang.String" id="FDEngineerComments"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="fdmodelmatchcomplete_out" value="java.lang.Boolean" id="IsFDModelMatchComplete"/>
+<dataHolder inputId="isfdtask_in" name="#9BCAFA" type="basicType" outId="" value="java.lang.Boolean" id="IsFDTask"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="fdmodelcheckedin_out" value="java.lang.Boolean" id="IsFDWellModelCheckedIn"/>
+</form>
